@@ -131,3 +131,22 @@ header li {
 }
 
 /* Styles for search results */
+
+.search-result {
+  margin: 170px 80px 50px;
+  min-width: 900px;
+  column-count: 4;
+  column-gap: 20px;
+}
+
+.image {
+  margin-bottom: 20px;
+}
+
+.image img {
+  border-radius: 20px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+/* Styles for post info */
