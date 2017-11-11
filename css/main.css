@@ -13,6 +13,13 @@ h1, h2, h3, h4, h5 {
  margin: 0;
 }
 
+/* Clearing float*/
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* Styles for header */
 
 header {
@@ -95,6 +102,10 @@ header li {
   padding: 10px 10px 10px 0;
 }
 
+.search-filter span {
+  font-weight: 700;
+}
+
 .gray-icon {
   margin: 0 10px;
   padding: 0 10px;
@@ -126,8 +137,80 @@ header li {
   padding: 0 24px;
   height: 100%;
   width: 100%;
-  background: rgba(255, 153, 204, 0.5);
+  /*background: rgba(255, 153, 204, 0.5);*/
   cursor: pointer;
+}
+
+.filter-menu .box-1 {
+  background-image: url("../assets/images/background1.jpg");
+}
+
+.filter-menu .box-2 {
+  background-image: url("../assets/images/background2.jpg");
+}
+
+.filter-menu .box-3 {
+  background-image: url("../assets/images/background3.jpg");
+}
+
+.filter-menu .box-4 {
+  background-image: url("../assets/images/background4.jpg");
+}
+
+.filter-menu .box-5 {
+  background-image: url("../assets/images/background5.jpg");
+}
+
+.filter-menu .box-6 {
+  background-image: url("../assets/images/background6.jpg")
+}
+
+.filter-menu .box-7 {
+  background-image: url("../assets/images/background7.jpg")
+}
+
+.filter-menu .box-8 {
+  background-image: url("../assets/images/background8.jpg")
+}
+
+.filter-menu .box-9 {
+  background-image: url("../assets/images/background9.jpg")
+}
+
+.filter-menu .button-1 span {
+  background: rgba(194,149,110,0.5);
+}
+
+.filter-menu .button-2 span {
+  background: rgba(150,110,75,0.8);
+}
+
+.filter-menu .button-1 span {
+  background: rgba(194,149,110,0.5);
+}
+
+.filter-menu .button-2 span {
+  background: rgba(150,110,75,0.8);
+}
+
+.filter-menu .button-1 span {
+  background: rgba(194,149,110,0.5);
+}
+
+.filter-menu .button-2 span {
+  background: rgba(150,110,75,0.8);
+}
+
+.filter-menu .button-1 span {
+  background: rgba(194,149,110,0.5);
+}
+
+.filter-menu .button-2 span {
+  background: rgba(150,110,75,0.8);
+}
+
+.filter-menu .button-1 span {
+  background: rgba(194,149,110,0.5);
 }
 
 /* Styles for search results */
@@ -141,6 +224,7 @@ header li {
 
 .image {
   margin-bottom: 20px;
+  display: inline-block;
 }
 
 .image img {
@@ -150,3 +234,42 @@ header li {
 }
 
 /* Styles for post info */
+
+.post, .share {
+  float: left;
+}
+
+.post {
+  width: 70%;
+}
+
+.share {
+  width: 30%;
+}
+
+.user-name {
+  font-weight: 700;
+}
+
+.first-letter {
+  background-color: #D597A1;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}
+
+.first-letter span {
+  color: #FFF;
+  line-height: 30px;
+}
+
+.hashtag {
+  margin-left: 35px;
+}
+
+.share {
+  color: #B5B5B5;
+  font-size: 10px;
+}
