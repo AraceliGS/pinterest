@@ -125,7 +125,6 @@ header li {
   height: 60px;
   margin: 5px;
   background-color: gray;
-  /*background-image: url("../assets/images/bg-tag3.jpg"); Buscar imagen*/
   overflow: hidden;
 }
 
@@ -137,7 +136,6 @@ header li {
   padding: 0 24px;
   height: 100%;
   width: 100%;
-  /*background: rgba(255, 153, 204, 0.5);*/
   cursor: pointer;
 }
 
