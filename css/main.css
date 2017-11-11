@@ -1,0 +1,133 @@
+/* General Classes */
+
+* {
+  box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+ margin: 0;
+}
+
+/* Styles for header */
+
+header {
+  background-color: #FFF;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+header ul {
+  list-style: none;
+  margin: 0;
+  text-align: center;
+  width: 100%;
+}
+
+header li {
+  display: inline-block;
+}
+
+/* Styles for main menu */
+
+.main-menu {
+  border-bottom: 1px solid #D3D3D3;
+  padding: 10px 20px 13px;
+}
+
+.logo {
+  margin: 0 10px;
+}
+
+.logo a {
+  color: #BD081C;
+  transition: color 0.2s;
+}
+
+.logo a:hover {
+  color: #000;
+}
+
+.logo i {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search {
+  border-radius: 6px;
+  background-color: #EFEFEF;
+  margin: 0 20px;
+  text-align: left;
+  width: 70%;
+}
+
+.search-box, .search-filter {
+  display: inline-block;
+}
+
+.search-box {
+  width: 85%;
+  padding: 10px 0 10px 30px;
+}
+
+.search-box form {
+  display: inline-block;
+  width: 90%;
+}
+
+.search-box input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0;
+  width: 100%;
+}
+
+.search-filter {
+  padding: 10px 10px 10px 0;
+}
+
+.gray-icon {
+  margin: 0 10px;
+  padding: 0 10px;
+}
+
+.gray-icon i {
+  color: #B5B5B5;
+}
+/* Styles for filter menu*/
+
+.filter-menu {
+  padding: 10px 20px;
+}
+
+.filter-menu li {
+  border-radius: 6px;
+  height: 60px;
+  margin: 5px;
+  background-color: gray;
+  /*background-image: url("../assets/images/bg-tag3.jpg"); Buscar imagen*/
+  overflow: hidden;
+}
+
+.filter-menu span {
+  color: #FFF;
+  display: block;
+  font-weight: 700;
+  line-height: 60px;
+  padding: 0 24px;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 153, 204, 0.5);
+  cursor: pointer;
+}
+
+/* Styles for search results */
